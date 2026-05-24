@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vazir", "Tahoma", sans-serif;
+  background: linear-gradient(145deg, #e8f5e9 0%, #c8e6c9 100%);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
+  color: white;
+  padding: 25px 20px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.search-wrapper {
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-icon {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 16px 50px 16px 20px;
+  font-size: 1rem;
+  font-family: "Vazir", "Tahoma", sans-serif;
+  border: none;
+  border-radius: 60px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  outline: none;
+  border: 2px solid transparent;
+}
+
+.search-input:focus {
+  border-color: #2e7d32;
+  box-shadow: 0 8px 20px rgba(46, 125, 50, 0.2);
+}
+
+.lessons-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lesson-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-right: 6px solid #2e7d32;
+}
+
+.lesson-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.lesson-header {
+  background: #f1f8e9;
+  padding: 18px 20px;
+  border-bottom: 1px solid #dcedc8;
+}
+
+.lesson-header h2 {
+  color: #1b5e20;
+  font-size: 1.3rem;
+}
+
+.lesson-content {
+  padding: 20px;
+  line-height: 1.8;
+  color: #2c3e2f;
+  font-size: 0.95rem;
+}
+
+.highlight {
+  background-color: #ffeb3b;
+  color: #1b5e20;
+  font-weight: bold;
+  padding: 0 4px;
+  border-radius: 8px;
+}
+
+.no-result {
+  text-align: center;
+  padding: 50px 20px;
+  background: white;
+  border-radius: 30px;
+  color: #555;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  color: #2e5c2e;
+  font-size: 0.8rem;
+}
